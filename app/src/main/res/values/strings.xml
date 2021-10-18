@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Scripture</string>
+    <string name="book_hint">Book</string>
+    <string name="promp_text">Enter Your Favorite Scripture</string>
+    <string name="chapter_hint">Chapter</string>
+    <string name="verse_hint">Verse</string>
+    <string name="display_button">Display</string>
+    <string name="save_button">Save Scripture</string>
+    <string name="preferences_book">book</string>
+    <string name="preferences_chapter">chapter</string>
+    <string name="preferences_verse">verse</string>
+    <string name="load_button">Load Scripture</string>
+</resources>
