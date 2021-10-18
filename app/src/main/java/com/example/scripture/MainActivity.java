@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
         editor.putString(getString(R.string.preferences_verse), verse);
 
         editor.apply();
+
+        Toast.makeText(this, "Scripture saved", Toast.LENGTH_SHORT).show();
     }
 
     public void load(View view) {
