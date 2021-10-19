@@ -29,13 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, ViewScripture.class);
 
-        EditText bookEditText = findViewById(R.id.bookEditText);
-        EditText chapterEditText = findViewById(R.id.chapterEditText);
-        EditText verseEditText = findViewById(R.id.verseEditText);
-
-        String book = bookEditText.getText().toString().trim();
-        String chapter = chapterEditText.getText().toString().trim();
-        String verse = verseEditText.getText().toString().trim();
+        String book = getStringFromEditText(R.id.bookEditText);
+        String chapter = getStringFromEditText(R.id.chapterEditText);
+        String verse = getStringFromEditText(R.id.verseEditText);
 
         String scripture = String.format("%s %s:%s", book, chapter, verse);
 
